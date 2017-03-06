@@ -1,0 +1,80 @@
+{
+	"id": "0",
+	"name": "Joe Blow",
+
+	"summary": [
+		"X years of progressive experience in XYZ Field.",
+		"Passionate about this, that, and otherwise",
+		"Solid experience doing something.",
+		"Finds the best solution, especially when the requirements are ambiguous."
+	],
+
+	"technologies": [{
+		"expert": ["ABC", "ABD", "DEF"]
+	}, {
+		"experienced": ["GHI", "IJK", "LMN"
+		]
+	}, {
+		"trained": ["XUZ", "AWS", "WXy"]
+	}],
+
+	"categories": ["expert", "experienced", "trained"],
+	
+	"showCats": [true, true, true],
+	
+	"positions": [{
+		"id": "0",
+		"name": "Current",
+		"dates": "12/15-Present",
+		"vendor": "XYZ Company",
+		"client": "ABC Company",
+		"city": "Bellevue WA",
+		"technologies": ["ABC", "ABD", "DEF", "IJK", "LMN"],
+		"months": [-1, -1, 6, 6, -1],
+		"tasks": [
+			"Task 1 with ABC, ABD, LMN.",
+			"Task 2 with ABC, DEF, IJK"
+		]
+	}, {
+		"id": "1",
+		"name": "Previous",
+		"dates": "6/13-11/15",
+		"vendor": "XYZ Company",
+		"client": "DEF Company",
+		"city": "Seattle WA",
+		"technologies": ["ABC", "ABD", "DEF", "GHI"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Task 1 with ABC, ABD, DEF, GHI"
+		]
+	}, {
+		"id": "2",
+		"name": "Intern",
+		"dates": "6/12-8/12",
+		"vendor": "WWW Company",
+		"client": "Xyz Client",
+		"city": "Richland WA",
+		"tasks": [
+			"Updated stuff"
+		]
+	}],
+
+	"educationSummary": [
+		"BS XE XXXXXX University 2013",
+		"XYZ on line courses in HTML5, CSS3, JavaScript"
+	],
+
+	"educations": [{
+		"name": "XYZ Engineering",
+		"school": "XXXXXX University",
+		"city": "Pullman WA",
+		"degree": "BS",
+		"graduated": "2013"
+	}, {
+		"school": "XYZ",
+		"name": "Boot Camp",
+		"technologies": ["HTML5", "CSS3", "JavaScript"],
+		"year": "2016",
+		"mode": "On Line"
+	}]
+}

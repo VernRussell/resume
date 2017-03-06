@@ -1,0 +1,659 @@
+{
+	"id": "0",
+	"name": "Vern Russell",
+
+	"summary": [
+		"10+ years of progressive experience in Software Development.",
+		"Passionate about data, tecjahnology, & creative innovation",
+		"Strong SQL Server experience: advanced SQL Query Design & Optimization, database design, Stored Procedures, SQL Jobs, SSIS, ETL, SSRS, CDC and Administration.",
+		"Extensive experience (over 8 years) in C#, .Net to write frameworks and automation",
+		"Web development using ASP .Net, Java and MVC programming",
+		"Solid experience writing test plans, test cases, and test tools.",
+		"Finds the best solution, especially when the requirements are ambiguous."
+	],
+
+	"technologies": [{
+		"expert": ["SQL Server", "SQL", "C#", ".Net", "XML", "ADO"]
+	}, {
+		"experienced": ["Test Automation", "tools developer", "ETL", "HTML", "JavaScript", "ASP .Net", "OOP", "TFS",
+			"Agile", "PowerShell", "SD", "TFS", "VSO", "SQL Jobs", "SSIS", "Excel", "IIS"
+		]
+	}, {
+		"intermediate": ["Java", "Performance Tuning", "Entity Framework", "Multi-Threading", "CSS", "Perl", "Linux", "C++",
+			"UNIX", "VSTS", "N-Unit", "MVC", "SSRS"
+		]
+	}, {
+		"light": ["Web Services", "Design Patterns", "Data Structures", "MVC", "ASP .Net MVC", "API", ".Net Nuke",
+			"Json", "jQuery", "AJAX", "REST", "'C'", "Git", "Jira", "Oracle", "Knockout", "Autopilot", "VM"
+		]
+	}, {
+		"some": ["JDBC", "Spring", "Hibernate", "Tomcat", "Apache", "JSP", "XSLT", "WTT", "QTP", "Coded UI", "Clearcase", "Perforce", "Subversion", "Maui", "SAP"]
+	}, {
+		"oldexperienced": ["VB", "VB Script", "ASP", "Fortran", "Assembler", "DBASE", "Paradox", "Basic", "Paradox PAL", "DBase", "Crystal Reports"]
+	}, {
+		"oldlight": ["Delphi", "Interbase", "Active X", "CGI", "Clipper", "Informix"]
+	}, {
+		"trained": ["Azure", "AWS", "Angular", "NoSQL", "NodeJS", "HTML5", "CSS3", "Mongo", "PHP", "Docker"]
+	}],
+
+	"categories": ["expert", "experienced", "intermediate", "light", "some", "oldexperienced", "oldlight", "trained"],
+	
+	"showCats": [true, true, true, false, false, false, false, false],
+
+	"positions": [{
+		"id": "0",
+		"name": "C#/SQL Technical Lead",
+		"dates": "12/15-6/16",
+		"vendor": "HCL America",
+		"client": "Microsoft",
+		"group": "Bing Transit",
+		"city": "Bellevue WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "PowerShell", "Azure", "Autopilot"],
+		"months": [-1, -1, 6, 6, 5, 1, 1],
+		"tasks": [
+			"Automated the Bing Transit pipeline process taking agency routing and trip feeds, using SQL Server 2012/14, C#/.Net and PowerShell by restoring the backup of the feed data, applying fixes to bad data to generate clean data for pipeline which transforms the data into binary files read by the web site. by transforming the process from manual steps.",
+			"Reduced feed data errors by 99%.",
+			"Used SQL Azure to run tests and load data into a test environment on Azure virtual machine."
+		]
+	}, {
+		"id": "1",
+		"name": "C#/SQL SDET",
+		"dates": "6/15-11/15",
+		"vendor": "Addeco",
+		"client": "Russell Investments",
+		"city": "Seattle WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "SSIS", "Git", "Jira", "ETL", "Test Automation"],
+		"months": [-1, -1, 4, 4, -1, -1, -1, 4, -1],
+		"tasks": [
+			"Delivered Test Automation as a simulation of processing Index data based on separated in SQL Server 2012, SQL, CDC, and ETL involving a multi-step SQL job to test the process to verify iterated changes.",
+			"Validated SQL Schema changes in Git in an iterative fashion using C# framework with Jira files and SQL data structure to compare data base configurations"
+		]
+	}, {
+		"id": "2",
+		"name": "C#/SQL SDE",
+		"dates": "11/14-6/15",
+		"vendor": "Aditi",
+		"client": "Microsoft",
+		"group": "Xbox",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "Excel", "TFS", "VSO", "Autopilot"],
+		"months": [-1, -1, 3, -1, 7, -1, 4, 4],
+		"tasks": [
+			"Reduced the time for Live Site Review team to spot issues by 30% by providing a periodic report in Excel using SQL Stored procedures and queries using CTE’s, Pivoting, and Aggregation and fact tables to support tabular reports and graphs in Excel.",
+			"Upgraded ingestions in C# to pull data from VSO and SQL into a database based off of TFS.",
+			"Used SD to interface with Autopilot."
+		]
+	}, {
+		"id": "3",
+		"name": "C#/SQL SDET",
+		"dates": "1/14-9/14",
+		"vendor": "Accenture",
+		"client": "Microsoft",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "PowerShell", "Entity Framework", "XML", "Json", "TFS", "IIS", "Coded UI", "VM", "Web Services", "Test Automation"],
+		"months": [3, 3, -1, -1, 7, 4, 4, 4, -1, 4, 4, 4, 4, 6],
+		"tasks": [
+			"Delivered Test Automation and tools for High Security Signing Application with PowerShell, C#, SQL, Entity Framework, Coded UI, XML, Json, TFS, IIS to debug and analyze job errors, generate certificate from database, analyze job runs, ingest data, submit jobs to sign multiple file types assuring no piracy of software, manage services, upgrade applications, run deployments, performance and stress tests"
+		]
+	}, {
+		"id": "4",
+		"name": "C#/SQL SDE",
+		"dates": "8/13-10/13",
+		"vendor": "Volt",
+		"client": "DNV-GL Wind Energy division",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Upgraded and cleaned up inbox of Email server of Wind Data Station retrieval system using attachment by moving messages to predetermined folders based on error situations and history leaving only essential information using C#, SQL, Exchange."
+		]
+	}, {
+		"id": "5",
+		"name": "ASP.Net MVC4 Web Developer",
+		"dates": "3/13-5/13",
+		"vendor": "Wicresoft",
+		"client": "Microsoft",
+		"group": "ETCO",
+		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net MVC", "JavaScript", "jQuery", "Knockout"],
+		"months": [-1, -1, -1, -1, -1, -1],
+		"tasks": [
+			"Upgraded On-call area web application in ASP .Net MVC 4.0, SQL, C#, JavaScript, jQuery, Knockout"
+		]
+	}, {
+		"id": "6",
+		"name": "SQL/Java Developer",
+		"dates": "8/12-1/13",
+		"vendor": "Smartek21",
+		"client": "Department of Justice",
+		"technologies": ["SQL Server", "SQL", "Java", "Tomcat", "Apache", "C#", ".Net", "JDBC", "JSP", "Spring", "Hibernate", "OOP"],
+		"months": [4, 4, 5, 5, 5, 2, 2, 3, 3, 5, -1, -1],
+		"tasks": [
+			"Developed administration tool website with Java using SQL Server, SQL, OOP, MVC, Spring, Hibernate, Apache, Tomcat, JDBC and JSP.",
+			"First professional development in Java, used to interface with the database and to write a web page."
+		]
+	}, {
+		"id": "7",
+		"name": "C#/SQL SDET",
+		"dates": "12/11-8/12",
+		"vendor": "Smartek21",
+		"client": "Expedia",
+		"group": "Email Marketing",
+		"technologies": ["SQL Server", "SQL", "SSIS", "ETL", "C#", ".Net", "Excel", "Test Automation"],
+		"months": [-1, -1, 4, 2, 6, 6, 4, 5],
+		"tasks": [
+			"Enhanced Email Marketing Applications and Test Automation in SQL, .Net, XML, ETL, Excel to add 50 tests, monitor 1000 files being posted, generate 100 test cases from data, maintain SQL system to migrate SQL data."
+		]
+	}, {
+		"id": "8",
+		"name": "Web Developer",
+		"dates": "8/11-12/11",
+		"vendor": "Aerotek",
+		"client": "Intermec Technologies",
+		"city": "Everett WA",
+		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net", "SAP"],
+		"months": [-1, -1, -1, -1, -1],
+		"tasks": [
+			"Maintained and enhanced Customer Lookup and Reporting applications and their associated Administration applications using C#, ASP.Net 4.0 performing bug fixes and other assigned tasks.  The code interfaces with SQL Server 2000/2005/2008 database and SAP.  Learned interfaces that called for SAP data, security logins, and web user information on an outside system."
+		]
+	}, {
+		"id": "9",
+		"name": "C#/Oracle Web Developer",
+		"dates": "4/11-8/11",
+		"vendor": "Compucom",
+		"client": "Data IO",
+		"city": "Redmond WA",
+		"technologies": ["Oracle", "SQL", "C#", "ASP .Net", "ASP", ".Net Nuke"],
+		"months": [-1, -1, -1, -1, -1, -1],
+		"tasks": [
+			"Converted classic ASP code that Searches for and shows Device Information into ASP.Net to set up a Microsoft .Net Nuke site, organized into ASP.Net modules (.ascx files) using C# and JavaScript within VS 2010 while interfacing with an Oracle 11 database, from which I used TOAD to compose queries and analyze the data involved and IIS 7 to host."
+		]
+	}, {
+		"id": "10",
+		"name": "SQL/Web Developer",
+		"dates": "11/10-4/11",
+		"vendor": "Comsys",
+		"client": "Microsoft",
+		"group": "Bing",
+		"city": "Bellevue WA",
+		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net", "JavaScript", "Test Automation"],
+		"months": [4, 4, -1, -1, -1, 2],
+		"tasks": [
+			"Maintained and enhanced ASP.Net 2.0 (C# and JavaScript) Mobile Device Checkout, Reservation, and Management System including a SQL Server 2008 back end hosted in IIS 7, including E-Mail notifications.",
+			"Wrote Test Automation to simulate the most important tasks."
+		]
+	}, {
+		"id": "11",
+		"name": "Web Developer",
+		"dates": "6/10-6/10",
+		"vendor": "mobileintegration-group",
+		"client": "Expedia",
+		"city": "Bellevue WA",
+		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Updated an existing ASP.Net 2.0 application with a SQL Server 2005 back end in very short order to render three new questionnaire style forms which score travel agent's activity."
+		]
+	}, {
+		"id": "12",
+		"name": "C# SDET",
+		"dates": "4/10-5/10",
+		"vendor": "Covestic",
+		"client": "Microsoft",
+		"group": "MSG",
+		"city": "Redmond WA",
+		"technologies": ["C#", "Maui", "VM", "Test Automation"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Automated IssueNet ticketing system Test Automation for UI with Maui test tool",
+			"Assisted with the installation of the system on Virtual Machines (VM) in Server 2008."
+		]
+	}, {
+		"id": "13",
+		"name": "SQL Developer",
+		"dates": "2/10-4/10",
+		"vendor": "???",
+		"client": "Microsoft",
+		"group": "RXD",
+		"city": "Issaquah WA",
+		"technologies": ["SQL Server", "SQL"],
+		"months": [-1, -1],
+		"tasks": [
+			"Archived large SQL databases by switching out table partitions for large tables within the database"
+		]
+	}, {
+		"id": "14",
+		"name": "C# Developer",
+		"dates": "6/9-8/9",
+		"vendor": "Self",
+		"client": "Smith’s Net Service",
+		"city": "Woodinville WA",
+		"technologies": ["C#", "N-Unit", "Test Automation"],
+		"months": [-1, -1, -1],
+		"tasks": [
+			"Wrote application in Windows XP/Vista with C#, N-Unit that uses UI Test Automation to read and analyze the controls of applications running on the desktop."
+		]
+	}, {
+		"id": "15",
+		"name": "SQL/ASP.Net Developer",
+		"dates": "4/9-6/9",
+		"vendor": "Self",
+		"client": "The City Church",
+		"city": "Kirkland WA",
+		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Responsible 2500 member profile reports written in SQL Server 2000 and ASP .Net 2.0"
+		]
+	}, {
+		"id": "16",
+		"name": "C#/SQL SDET",
+		"dates": "2/9-6/9",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "Zune",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "API", "Web Services", "Test Automation"],
+		"months": [-1, -1, -1, -1, 3, 3, -1],
+		"tasks": [
+			"Updated SQL tests that was part of test automation and installed builds and verified the changes using Product Studio and Source Depot.",
+			"Wrote C# harness to run SQL queries to validate the APIs which involved Test Automation which tested Web Services."
+		]
+	}, {
+		"id": "17",
+		"name": "C#/SQL SDE",
+		"dates": "9/7-9/8",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "Windows Feedback Services",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "SSRS", "SSIS", "ETL", "Web Services", "VSTS", "Test Automation"],
+		"months": [12, 12, 6, 6, 12, 12, 8, 8, 6, 3],
+		"tasks": [
+			"Worked all aspects of SQL Server 2000/2005 including designing metrics reports with SSRS, administration, table design, writing complex T-SQL queries, SQL Functions and Stored Procedures, SQL jobs, and SQL administration using Product Studio and Source Depot in support of major Web Services, which provides solutions for crashes involving Windows applications.",
+			"Wrote C# tools to convert SQL data and perform unit testing. Used the SSIS Extractor to load data from external data sources into the working database",
+			"Designed metrics reports using SQL Server 2005 SSRS, writing complex T-SQL queries to display the information.",
+			"Responsible for the Metrics written with very complex T-SQL queries associated with the responses provided to users when computer or application crashes through Watson.",
+			"Wrote complex T-SQL queries, owning databases that contain information regarding feedback from Windows XP and Vista customers, including daily, weekly, and monthly aggregations of this information.  The databases that I worked with resided on three servers. I took responsibility for migrating the data from the original server that holds about 400 MB of data, to an intermediate server (now becoming the test server) that holds about 600 GB of data, to a Sans server, that holds over 1TB of data.  I owned the entire system,  maintaining a complex set of aggregation jobs, written with complex T-SQL queries and loops which broke up large updates in smaller increments around 2000 rows, writing T-SQL to add new functionality to the system to simplify reporting, to maintain and improve the reports that run against this system, keeping the system in good operating condition.",
+			"Drove the T-SQL development on the Response Metrics servers, writing complex T-SQL queries, compiling them into stored procedures and functions, merging them into SQL jobs, and report writing using SQL Server 2005 SSRS.  I took responsibility for many major SQL administrative duties, organizing the tables into the proper file groups, moving data between very large tables on multiple servers, making sure the SQL files did not fill up the server disks.",
+			"Performed database design, refactoring tables where necessary to optimize the aggregations to run in a more encapsulated form, using table driven dynamic T-SQL queries, adding several tables and views that now drive many of the reports.  When it became apparent the data needed to be broken down more deeply within the generic bucket category, I drove the design and updated the aggregations, run previously to include this granularity.  I drove the rework of an aggregation of operating system kernel crashes which involved a different representation of a bucket (text versus the identifying number), and several relating tables, providing a dynamic T-SQL query that pulls data from a table named based on the month of the particular crash.",
+			"Drove a project to partition the data into groups of entities in order to filter out the specific items to query for a particular report, designing stored procedures to add and delete the entries that defined the relationships.  I took responsibility to integrate data from the Content Management and Watson (Windows Error Reporting) systems into this grouping.  I designed several related views that allow a specific response to be related to entities such as its template, company, priority, application (that crashed), etc.",
+			"Collaborated on a C# application that imports the Windows XP and Vista online crash hits into a very large fact table contained on the database and was responsible for C# code that arranges the Watson generic crash event type buckets into the same form as the regular crash buckets.",
+			"Designed Test Automation with unit tests in C# within VSTS that test the configuration and makeup of the Aggregation Tables that I owned."
+		]
+	}, {
+		"id": "18",
+		"name": "C#/SQL SDET",
+		"dates": "5/07-9/07",
+		"vendor": "Teksystems",
+		"client": "Wizards of the Coast",
+		"city": "Renton WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "ASP .Net", "Linux", "XML", "IIS", "Test Automation", "Perforce", "N-Unit"],
+		"months": [-1, -1, -1, -1, 2, -1, -1, 2, -1, -1, -1],
+		"tasks": [
+			"Programmed with C# (3+ years (y)), SQL 2005 (1+y), XML (5y), ASP.Net(3 mo), .Net 2.0 (1y),  ADO (5y), Perforce (like source depot),Linux, IIS",
+			"Wrote Object Orientated (2y) Test Automation (3y) with Reflection (1y) for gaming web site messaging system.",
+			"Developed ASP.Net Reporting page ) with IIS (2y)  to report test results"
+		]
+	}, {
+		"id": "19",
+		"name": "C#/SQL SDET",
+		"dates": "6/6-2/7",
+		"vendor": "Compucom",
+		"client": "Microsoft",
+		"group": "MSNIA",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "WTT", "SSIS", "ETL", "VSTS", "Test Automation"],
+		"months": [-1, -1, -1, -1, 4, 4, 4, -1, 3],
+		"tasks": [
+			"Developed test automation and Object Orientated applications in C# & SQL Server 2005 using Product Studio, Source Depot, and WTT. Used the SSIS Extractor to load data from external data sources into the working database. Designed Testing Database and agilely built its UI for data entry using Winforms and Agile methodology with VSTS.",
+			"Designed and wrote test driven Agile data base editor windows application in C#, .Net 2.0, SQL Server 2005, using XML to provide specifications for the MDI forms and controls needed for data entry.",
+			"Automated ability to verify that proxy servers provided compressed images for customers with an Object Orientated multi-threaded C# application.",
+			"Refactored Test Automation in C# interfacing with web documents, WTT test reports.",
+			"Provided Test Automation framework to handle stress, performance, and load testing for Web Services."
+		]
+	}, {
+		"id": "20",
+		"name": "C#/SQL SDE",
+		"dates": "4/6-6/6",
+		"vendor": "RGEN",
+		"client": "Microsoft",
+		"group": "Licensing",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Writing and reviewing design documents currently for a project involving the upgrade of Microsoft's software license registration system to C# and SQL Server 2005. Wrote code and unit in C# and SQL in support of the conversion effort."
+		]
+	}, {
+		"id": "21",
+		"name": "Test Automation Developer",
+		"dates": "2/6-4/6",
+		"vendor": "Alliance Consulting",
+		"client": "Cingular Wireless",
+		"city": "Bothell WA",
+		"technologies": ["VB Script", "QTP", "HTML", "Test Automation"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Wrote Test Automation code in VB Script for the Quick Test Pro (QTP) test tool for Test Director test sets of Web applications.  Certain scripts pull advanced HTML objects, like Web Elements as a child object in order to speed up the detection of objects on the web page or confirm the object is not on the page."
+		]
+	}, {
+		"id": "22",
+		"name": "C#/SQL Developer",
+		"dates": "10/5-12/5",
+		"vendor": "Addeco",
+		"client": "Phillips Medical",
+		"city": "Bothell WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Wrote an application in C# that analyzes voice recognition files, merging information from a SQL database, XML files, and voice files in five foreign languages and parsing the information so th strings that are voiced can be compared with the values within physical controls and touch screens on an ultrasound monitoring device."
+		]
+	}, {
+		"id": "23",
+		"name": "C# SDET",
+		"dates": "8/5-10/5",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "SPPT",
+		"city": "Redmond WA",
+		"technologies": ["WTT", "C#", ".Net", "XML", "Test Automation"],
+		"months": [-1, -1, -1, -1, -1],
+		"tasks": [
+			"Wrote a Test Automation application in C# that takes XML files and adds new jobs and updates existing ones in Windows Test  Tool (WTT). "
+		]
+	}, {
+		"id": "24",
+		"name": "C#/SQL SDET",
+		"dates": "2/5-6/5",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "SBA",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "N-Unit", "XML", "Test Automation"],
+		"months": [-1, -1, -1, -1, -1, -1, -1],
+		"tasks": [
+			"Refractored C# Test Automation infrastructure code for Small Business Accounting application.  The new code handled most of the business objects using reflection, XML and initiative concepts to cast specific business objects, such as a customer, to the object’s base class, such as an account.  The code used reflection to consolidate security, identify the entity, and invoke the object’s create method.  In certain cases, the amount of code was reduced by 90%.  Used C# Test Harness and SQL Scripts to perform regression testing of the Scan Documenting system, focusing on the piece which validates input documents, renaming them as they are found and setting status values. Managed IIS 6.0 services configuration files and event logs associated with the system being tested.",
+			"Wrote C# tools that generated XML to drive Test Automation based on a user’s navigation through the main product.   Wrote another tool that uses reflection to identify N-Unit tests and test cases and use the information to input new test cases into product studio."
+		]
+	}, {
+		"id": "25",
+		"name": "C#/SQL SDET",
+		"dates": "11/4-2/5",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "LCAIT",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "XML", "Test Automation"],
+		"months": [-1, -1, -1, -1, -1, -1],
+		"tasks": [
+			"Wrote C# Test Harness applications to simulate and verify process of migrating scanned documents into a secure document management system. Involve extensive SQL, XML, file system, and logging manipulations using Data Sets, XML documents, Sorted Lists, Data Readers, Data Grids, an application wide reference structure and multi-threading. One method uses Sorted Lists to evaluate which files to manipulate and how.",
+			"Used C# Test Harness and SQL Scripts to perform regression testing of the Scan Documenting system, focusing on the piece which validates input documents, renaming them as they are found and setting status values. Managed IIS 6.0 services configuration files and event logs associated with the system being tested.",
+			"Wrote C# Test Automation modules that emulate SQL Select, Update, and Delete calls. Added module that imports delimited text document with column information.",
+			"Wrote C# text parsers that translate the information into XML output files. One parser puts test cases and steps into XML format. Another parser lists the controls on a number of ASPX and HTML files out into XML format."
+		]
+	}, {
+		"id": "26",
+		"name": "VB/C# SDET",
+		"dates": "5/3-5/4",
+		"vendor": "Volt",
+		"client": "Microsoft",
+		"group": "PC Tablet",
+		"city": "Redmond WA",
+		"technologies": ["VB", "C#", ".Net", "Test Automation", "C++", "Excel"],
+		"months": [7, 5, 5, 12, 4],
+		"tasks": [
+			"Automated over 250 tests for Journal (electronic inking tablet) application in VB 6.0, Excel and C# within the Tablet PC operating system. Analyzed and wrote infrastructure code, which simplifies the automation code. This includes menus, dialog boxes, inking, object user interface, keystrokes, text boxes and file operations.",
+			"Mastered the Source Depot source control system, including fixing build errors. Set up build tree for code from a newer enlistment in the older enlistment, including analyzing and fixing code written in C++. Wrote scripts in MS Excell to query Test Case information from a SQL database, including generating XML files.",
+			"Wrote a text parser in C# which generates test automation code in C# for the most used Journal functions, allowing the possibility of generating most of the automation for another 500-1000 additional test cases."
+		]
+	}, {
+		"id": "27",
+		"name": "Web/SQL Developer",
+		"dates": "7/0-12/1",
+		"vendor": "Excell",
+		"client": "Boeing",
+		"city": "Renton WA",
+		"technologies": ["SQL Server", "SQL", "VB Script", "ASP", "HTML", "JavaScript"],
+		"months": [-1, -1, -1, -1, -1, -1],
+		"tasks": [
+			"Managed code in ASP (3y), VB Script, JavaScript (4y), HTML 4y, SQL 7.0 3y, Chart FX)",
+			"Aircraft maintenance performance web applications, charts and data feeds.",
+			"Improved performance of data feeds (BCP, SQL 7) by 90%"
+		]
+	}, {
+		"id": "28",
+		"name": "VB/SQL Developer/Software Architect",
+		"dates": "2/99-6/0",
+		"client": "Talking Dog Media",
+		"city": "Bellevue WA",
+		"technologies": ["SQL Server", "SQL", "VB Script", "ASP", "HTML", "VB", "UNIX", "JavaScript"],
+		"months": [-1, -1, -1, -1, -1, 8, 5, 8],
+		"tasks": [
+			"Developed in SQL Server 7, ASP, VBScript, JavaScript, HTML, VB, UNIX, NT 4",
+			"Built multi-customer educational software database, Migrated UNIX text files into SQL",
+			"Setup import and facilitated courseware for a major insurance company training web site",
+			"Designed SQL Server 7.0 Tables and wrote over 25 Stored Procedures and ASP 3.0 code for multiple websites supporting educational software.  Responsible for their database design and maintenance.  Was responsible for the successful migration of the City U instructional center database to the new Trackhound database format, including the maintenance of the stored procedures and ASP scripts the supported the courseware.  Provided proof of concept prototypes to repurpose the educational content into different forms.  Quickly wrote ASP code and redesigned the database to produce courseware for a clone of the Trackhound database for a major insurance client by finding a method to produce the page without HTML frames.  Then designed the database and produced ASP code to produce a registration site and tools to handle enrollment manage users of the system.  Revised a VB 6.0 application which imports courses and tests into the Trackhound database to embed the tests and glossary within the course file and to provide error checking of the import file.  Also wrote a procedure to export the information out from the database into the import file.",
+			"Wrote Three Tier VB 6.0 application that administrates on-line course students and enrollment and performs archival functions for these on-line courses.  System is written using DLLs that interfaces with a SQL Server 7.0 Database and generate middle tier data objects that can interface with any client software.  The system was written to be manipulated by a VB 6.0 client, but could be easily attached to an ASP application.  Within this system, designed and developed an object that translates information from the data objects into a tabular format for use with VB Listview controls, HTML tables, & external flat files.",
+			"Designed a SQL Server 7.0 database (Trackhound) that holds the menus and contents for on-line instructional learning courses.  Wrote scripts and stored procedures to transfer a SQL 6.5 one customer On-line Instructional center database into a multi-customer based system using restructured tables with added functionality.   The scripts create all of the Tables and Stored procedures.  The data is then populated from the original data or from the previous build.  Initially the code was written as SQL scripts, but now it has been converted into stored procedures, several which perform system functions, several more which populate the actual tables.  I wrote a VB 6.0 SQL table importer application that uses delimited ASCII files containing the new data, and populate one of three key tables within the new On-Line Instructional center database.  I was able to complete the SQL work in about 75 percent of the time that the customer actually expected me to take",
+			"Converted SQL scripts into a VB 6.0 SQL table data migrator system using two database connections, flat ASCII files housing small SQL scripts and execution lists.  The application runs the SQL scripts to create and populate a refined database based on data from an original database.  Code is included that sets the user’s roles and access settings to specific tables within new database.",
+			"Wrote ASP for an educational institution On-Line course web site using Advanced HTML, VB Script, and      Java Scripts and completed on very short notice.   Writing ASP applications and tools in support of a on-line educational course management software package that perform data entry and reporting of database contents for an online Discussion Folder (which was converted from Unix based code residing on a LINUX box), enrollment manager, and project task manager database."
+		]
+	}, {
+		"id": "29",
+		"name": "VB/SQL SDET",
+		"dates": "1/98-1/99",
+		"vendor": "Volt",
+		"client": "MSNBC",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "XML", "Test Automation", "VB", "ASP", "Web Services"],
+		"months": [-1, -1, -1, -1, -1, 6, 6],
+		"tasks": [
+			"Wrote scripts and stored procedures for Test Automation test harness, and stress tests for Workbench and MSN billing system.",
+			"Developed an SQL Server 6.5 Application that tests for SQL 6.5 Stored Procedures for MSNBC Workshop tool.  Set up SQL tables to group and categorize each procedure by test category and calling parameters.  Developed a VB 5.0 application which displays each test and the test results using the RDO result set objects.  Developed test tools in SQL to gather valid run values for each procedure based on existing data within the system.  Loaded the client VB source code in a SQL table to evaluate the remote SQL calls and group the stored procedure calls by the VB module being called from.",
+			"Wrote SQL Server 6.5 scripts and Stored Procedures in support of various applications on the Workbench database which houses news story data and is used to publish on the Web. Wrote SQL Server 6.5 stored procedures for a multi-program SQL Server 6.5, C++ 6.0 DLL, and VB 6.0 DLL and XML (Extensible Markup Language) application which are bound with XSL style sheets into web Active Server Pages,, that publishes news stories to several Web sites including Microsoft’s MSNBC and MSN web sites. .  Developed VB 6.0 test harness programs that perform system tests, kept track of what data is processed, where the output data files are, and verified the contents of these files.   Developed SQL Server 6.5 stored procedures for a VB application that modifies limit values to help keep the amount of news stories in Workbench under control.  Wrote SQL scripts to translate the setup of the Workbench production database into the setup required for the test database configuration to work properly.  Developed a script that makes a SQL script which uses SQL stored procedures and scripts that have been checked into Source Safe (a tool for saving the latest versions of current work).",
+			"Supported the above SQL/C++/VB application as the primary tester.  Reviewed  the design of the application from a testing standpoint and recommended changes that were implemented.  Helped set up the format of the XML files and with the layout of all of the data files included in the system.  Helped with NT 4 system configuration and installation duties.  Wrote the major tests required to test the system and executed them.   Reviewed the content of the XML files and XSL stylesheets (which are bound together to produce ASP pages containing the news content) and provided design feedback and reported errors in the code"
+		]
+	}, {
+		"id": "30",
+		"name": "VB/SQL Tester",
+		"dates": "4/96-7/96",
+		"vendor": "CARA",
+		"client": "Microsoft",
+		"group": "MSN",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C++", "VB", "Test Automation"],
+		"months": [-1, -1, -1, -1, -1],
+		"tasks": [
+			"Wrote Test Automation for SQL 6.5 Wrote SQL Server 6.5 scripts and stored procedures in support of the tests for a .multi-server billing system written in SQL Server 6.5, MS C++ 5.0, VB 5.0, Java, and VB Scripts.  Set up MS Access 97 tables , queries, and scripts in support of a Test case entry tool to break down the test cases down to the Test Step level.  Wrote a Visual Basic 5.0 application to use information from the Access tables to display the test cases and test steps together.   Modified a VB 5.0 application that generated input files that simulated billing usage data.  Wrote a VB 5.0 application that simulates much of the MSN billing process entirely with Classes and associated collections to provide the customer with a model to assist in the understanding of the process and to eventually use either with input files or generated data (current version)."
+		]
+	}, {
+		"id": "31",
+		"name": "VB/SQL Developer",
+		"dates": "11/96-1/98",
+		"vendor": "CARA",
+		"client": "CompuServe",
+		"city": "Bellevue WA",
+		"technologies": ["SQL Server", "SQL", "Crystal Reports", "VB", "Perl", "UNIX", "Active X", "HTML", "CGI"],
+		"months": [-1, -1, 8, -1, 8, 8, 4, 8, 4],
+		"tasks": [
+			"Wrote SQL Server 6.0 (2y) DBA, Perl (2y), Crystal Reports (1y), UNIX Expect, BCP, CGI, VB Active X, HTML scripts and stored procedures for data import, abusive billing checker and reporting in support of a vendor Internet billing system.",
+			"Developed  an SQL Server 6.0 applications to support a vendor written Internet billing system written in SQL Server 6.0.  Routinely performed in depth data analysis to identify and resolve data problems in support of the billing system.  The applications would analyze the data, report provide easier access to the data, and to make updates to the system.",
+			"Wrote SQL Scripts and stored procedures to fix data problems  from the past and avoid future data problems.  Learned the inner workings and associated infrastructure of the product and gained experience with SQL Server DBA processes.",
+			"Implemented a daily process in UNIX Expect & Perl 5.0 and SQL to grab Internet usage data  on a daily, rather than a monthly basis, and load the data into a table for input into the billing system.  This was a significant contribution to the billing system.  It enabled the company to detect overuse of Internet users and improperly billed customers in a more timely fashion, thus gaining revenue.",
+			"Wrote specialized billing summary and validation reports  in  SQL Server 6.0 and Crystal Reports 4.5. reports support to the billing department with.  Wrote Billing Validation Reports using SQL Server procedures for Internet site usage by customers from large companies. The report enables validation of usage provided to CompuServe that is invoiced by the billing system.  The SQL procedures gather monthly usage information, process it, and reports totals,  user details and usage differences for specific corporate sponsors.",
+			"Wrote an account maintenance screen using Perl 5, HTML, CGI, and SQL Server 6.0 pages using VB Active-X Controls layouts and VB Script.  Used Active-X to select to display or update user or account) and to enter/retain necessary input parameters and Perl and SQL server to identify individual customers to display and/or update."
+		]
+	}, {
+		"id": "32",
+		"name": "SQL SDET",
+		"dates": "5/96-10/96",
+		"vendor": "CARA",
+		"client": "Microsoft",
+		"group": "Expedia",
+		"city": "Redmond WA",
+		"technologies": ["SQL Server", "SQL", "C++", "VB", "Perl", "Test Automation"],
+		"months": [-1, -1, -1, -1, 4, -1],
+		"tasks": [
+			"Wrote test harness for travel web site.",
+			"Wrote SQL Scripts and Stored Procedures in SQL Server 6.5 to test the stored procedures for the main database holding Customer Data, Authentication, Request, Itinerary, and Black Listing information for main On-Line Travel Agency database written in SQL Server 6.5, MS C++ 4.0, and HTML..  Wrote Perl script to automate the execution of these stored procedures. Converted the automation into a  VB 3.0  application to group, select and run tests, displaying the results, another to generate some other SQL Tests, and another to present data from tables and groups of tables in a larger sized SQL Database."
+		]
+	}, {
+		"id": "33",
+		"name": "Delphi Developer",
+		"dates": "1/96-4/96",
+		"vendor": "Self",
+		"client": "Mercer Ranches Inc.",
+		"city": "Prosser WA",
+		"technologies": ["Interbase", "SQL", "Delphi"],
+		"months": [-1, -1, -1],
+		"tasks": [
+			"Wrote system in Borland Delphi and Interbase SQL that  provides GUI for Agricultural Data Management."
+		]
+	}, {
+		"id": "34",
+		"name": "Informix/Perl Developer",
+		"dates": "11/95-5/96",
+		"vendor": "MCE",
+		"client": "Siemans Nuclear Power",
+		"city": "Richland WA",
+		"technologies": ["Informix", "SQL", "Perl", "UNIX"],
+		"months": [-1, -1, -1, -1],
+		"tasks": [
+			"Wrote system in UNIX, Perl, and Informix SQL that archives Engineering Drawings onto Compact Disks"
+		]
+	}, {
+		"id": "35",
+		"name": "Software Developer",
+		"dates": "7/87-4/95",
+		"vendor": "Boeing Computer Services",
+		"client": "Westinghouse Hanford",
+		"city": "Richland WA",
+		"technologies": ["'C'", "C++", "Fortran", "Clipper", "DBase", "Paradox PAL", "Basic"],
+		"months": [6, 6, 24, 20, 48, 48, 12],
+		"tasks": [
+			"Reworked and converted Software Systems with problems",
+			"Rewrote weather radioactive release data acquisition and analysis system, written in 'C' and Fortran",
+			"Helped convert and maintain a fuel canister movement program from Fortran to Paradox, including the generation of a map of the fuel basin from data stored in a flat format",
+			"Set up multi-user security for a tracking system written in Clipper",
+			"Reworked data structure Tracking system, handled  large data collection/conversion in DBase III+",
+			"Reworked user access, menus and reporting of Paradox PAL tracking system",
+			"Wrote Database Data Entry/Reporting/Administrative systems in both business and scientific fields",
+			"System to schedule worker activities grouped by organization",
+			"System to gather/report complex task details and status with multiple subtask lists by organization & month",
+			"System converting daily plant data from Word Perfect/ASCII into Paradox and report readings by day/month",
+			"Reworked troublesome tank maintenance activity error tracking / data display system into generic format.",
+			"Wrote Paradox PAL prototype of existing nuclear materials accounting system",
+			"Wrote software that converts data from one format to another",
+			"Wrote document parsing and splitting program in C++",
+			"Converted 25 engineering documents from paper to electronic form and released",
+			"Software to import ASCII/Word Perfect documents into Paradox, categorizing and organizing information",
+			"Wrote software importing/exporting data to/from a case tool designed with poor data entry/import/export features, into Paradox database managing the system process and data models and had a reasonable means for data entry",
+			"Software to import/export data to/from a cumbersome software package, cutting processing time in half",
+			"Designed and automated downloading process of large, flat database from Prime computer to PC, normalized and translated the data into Paradox, resulting in information easier to analyze and work with.",
+			"Designed process to split up Word Perfect document by section, paragraph, sentence,  and word, then analyze",
+			"Wrote a standardized tool in Paradox PAL that was used for Multiple Software Applications",
+			"Wrote generic Paradox PAL Administrative system designed to be easily reconfigured and documented.  Most information and  process selection is table driven, eliminating the need to recompile code each time the system is reconfigured.  Documentation and testing procedures were worked into the system.  Common reporting and menu selection drive routines were included.  I could write a similar system within any other software platform.",
+			"Wrote  documents associated with the Software Life Cycle process, especially writing test procedures",
+			"Wrote requirements and design documents for a nuclear materials accounting system",
+			"Performed data analysis using various case tools and software QA functions",
+			"Designed a generic test plan format and used to quickly write test plans for many new systems",
+			"Designed methodology to automatically relate a system’s menu selections with software requirements and test procedures."
+		]
+	}, {
+		"id": "36",
+		"name": "Software Developer",
+		"dates": "6/79-6/87",
+		"client": "UNC Nuclear Industries Inc.",
+		"city": "Richland WA",
+		"technologies": ["Assembler", "Fortran", "Basic"],
+		"months": [-1, 60, 24],
+		"tasks": [
+			"Wrote real-time data collection program with screen displays and graphic outputs",
+			"Wrote real-time collection  & diagnostic system using graphic output in HP Basic",
+			"Wrote real-time collection, calculation, menu, and display systems for Nuclar Reactor in Fortran",
+			"Wrote Fortran data gathering and analysis programs to assist reactor instrument maintenance",
+			"Wrote large real-time data collection and monitoring system with color CRT character graphics output",
+			"Written as a nuclear reactor information system in Data General Assembler",
+			"Required memory management for large blocks of data on a real-time basis",
+			"Included real-time detection and response to reactor control room annunciators, especially to detect, monitor, and capture reactor scram information",
+			"System calculated reactivity of the reactor on a real-time basis, for criticality monitoring",
+			"Development included conversion of a Fortran program to Assembler and integrated with sub-system developed in assembler, thus freeing a CPU for backup purposes",
+			"Adapted the programs to run in the reactor's control room simulator",
+			"Rewrote device drivers for system's data multiplexors and color graphics display monitors"
+		]
+	}, {
+		"id": "37",
+		"name": "Intern",
+		"dates": "6/77-8/77",
+		"vendor": "Northwest College and University Association for Science (NORCUS)",
+		"client": "Rockwell Intl.",
+		"city": "Richland WA",
+		"tasks": [
+			"Updated equipment calibration information, scientific programming"
+		]
+	}],
+
+	"educationSummary": [
+		"BS EE Washington State University 1979",
+		"MS NucE University of Washington (coursework only)",
+		"Udemy on line courses in HTML5, CSS3, JavaScript, Node.js, Mongo DB, Java, Angular 2, Azure, AWS"
+	],
+
+	"educations": [{
+		"name": "Electrical Engineering",
+		"school": "Washington State Universition",
+		"city": "Pullman WA",
+		"degree": "BS",
+		"graduated": "1979"
+	}, {
+		"name": "Nuclear Engineering",
+		"school": "University of Washington",
+		"city": "Richland WA",
+		"degree": "MS",
+		"year": "80-84"
+	}, {
+		"school": "Udemy",
+		"name": "Web Developer Boot Camp",
+		"technologies": ["HTML5", "CSS3", "JavaScript", "Node.js", "Mongo DB"],
+		"year": "2016",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "The Complete Java Developer",
+		"technologies": ["Java"],
+		"year": "2016",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "Angular2 The Complete Guide",
+		"technologies": ["Angular.js"],
+		"year": "2017",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "Microsoft Azure Solutions Certification",
+		"technologies": ["Azure"],
+		"year": "2017"
+	}, {
+		"school": "Udemy",
+		"name": "Architecting Microsoft Azure Solutions Certification",
+		"technologies": ["Azure"],
+		"year": "2017",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "AWS Certified Developer Associate",
+		"technologies": "AWS",
+		"year": "2017",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "AWS Certified Solutions Architect - Associate 2017",
+		"technologies": "AWS",
+		"year": "2017",
+		"mode": "On Line"
+	}, {
+		"school": "Udemy",
+		"name": "CompTIA Security+ Certification - SY0-401 (2014 Objectives",
+		"technologies": "Security",
+		"year": "2017",
+		"mode": "On Line"
+	}]
+}
