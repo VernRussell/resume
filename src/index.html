@@ -2,13 +2,35 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Resume</title>
+  <title>ClassExamples</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+<!-- Set the base href -->
+    <base href="/">
+    <title>Class Examples</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Polyfills -->
+    <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+    <!-- Update these package versions as needed -->
+    <script src="https://unpkg.com/zone.js@0.7.4?main=browser"></script>
+    <script src="https://unpkg.com/systemjs@0.19.39/dist/system.src.js"></script>
+    <!-- This SystemJS configuration loads umd packages from the web -->
+    <script src="systemjs.config.server.js"></script>
+    <script>
+      System.import('main.js')
+            .catch(function(err){ console.error(err); });
+    </script>
+  </head>
+  
 <body>
-  <app-root>Loading...</app-root>
+  <re-root>Loading...</re-root>
 </body>
 </html>
