@@ -1,0 +1,37 @@
+    .col-sm-3 {
+      background-color: #80ff00;
+    }
+    .row {
+      background-color: #00ffff;
+    }
+    .indent {
+      padding-left: 10px; padding-right: 10px; border: 2px solid #794dff;
+    }
+    .details {
+      background-color: #e9e963;
+    }
+    .leftLabel {
+      background-color: #ffe6ff;
+    }
+    .highlights {
+       background-color: #ccff99;
+    }
+    .tt {
+      font-size: 10px;
+    }
+    .tu {
+      font-size: 11px; font-weight: bold;
+    }
+    .lab {
+        font-size: 15px; font-weight: bold; background-color: #ffb3b3;
+    }
+    .nf {
+      font-size: 18px; font-weight: bold;
+    }
+    hr {
+        border: none;
+        height: 1px;
+        /* Set the hr color */
+        color: #333; /* old IE */
+        background-color: #333; /* Modern Browsers */
+    }

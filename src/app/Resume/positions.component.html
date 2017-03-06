@@ -1,0 +1,39 @@
+<div *ngIf="resumeService.resume">
+	<span class="lab">Resume for: {{resumeService.resume.name}}</span>
+	<hr>
+	<div class="row">
+		<div *ngFor="let jobTitle of resumeService.resume.jobTitles">
+			<div class = "col-xs-2">
+				<div><a class="btn btn-block btn-success" (click)="onClick($event)">{{jobTitle}}</a></div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<span class="lab">Details for the following position:</span>
+	<div class="row">
+		<div *ngFor="let position of resumeService.resume.positions; let i = index">
+			<span class="clearfix col-xs-3" *ngIf="i < 4 && choice === 'Recent'"> 
+					<a class="btn btn-block btn-success tt" id="{{position.id}}" name="{{position.name}}_{{position.id}}" 
+					(mouseover)="onPick($event)">{{position.name}}<br>{{position.dates}} {{position.client}}</a>
+			</span>
+			<span class="clearfix col-xs-2" *ngIf="(i > 3 && choice !== 'Recent' && position.name.includes(choice)) || 
+					(choice === 'Misc' && position.misc)">
+					<a class="btn btn-block btn-success tt" id="{{position.id}}" name="{{position.name}}_{{position.id}}" 
+					(click)="onPick($event)">{{position.name}}<br>{{position.dates}}<br>{{position.client}}</a>
+			</span>
+		</div>		
+	</div>
+	<div *ngIf="showing === 'Showing'">
+		<hr>	  
+		<table>
+			<tr><td class="leftLabel indent">Title:</td><td class="highlights indent">{{myPosition.name}}</td></tr>
+			<tr><td class="leftLabel indent">Dates:</td><td class="highlights indent">{{myPosition.dates}} in {{myPosition.city}}</td></tr>
+			<tr><td class="leftLabel indent">Company:</td><td class="highlights indent">{{myPosition.vendor}} for {{myPosition.client}} {{myPosition.group}}</td></tr>
+			<tr><td class="leftLabel indent">Technologies:</td><td class="highlights indent">{{myPosition.technologies}}</td></tr>
+			<tr><td colspan="3" class="leftLabel indent">Tasks:</td></tr>
+		</table>
+		<ul class="details" *ngIf="myPosition.tasks">
+			<li *ngFor="let task of myPosition.tasks">{{task}}</li>
+		</ul>
+	</div>
+</div>

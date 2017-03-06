@@ -1,0 +1,42 @@
+
+<div *ngIf="resumeService.resume">
+	<span class="lab">Education for: {{resumeService.resume.name}}</span>
+	<hr>
+	<span class="lab">Postsecondary Education</span>
+	<div *ngFor="let education of resumeService.resume.educations; let i = index">
+		<div *ngIf="education.degree">
+			<table>
+				<tr><td class="highlights indent">{{education.degree}} ({{education.name}})</td>
+					<td colspan="2" class="highlights indent">{{education.school}} {{education.city}}</td></tr>
+				<tr><td *ngIf="education.graduated" class="leftLabel indent">Graduated:</td>
+				<td *unless="education.graduated" class="leftLabel indent">Attended:</td>
+					<td colspan="2" class="highlights indent">{{education.graduated}}{{education.year}}</td></tr>
+				 <tr><td colspan="3"></td>&nbsp;</tr>
+			</table>
+ 		</div>
+ 	</div>
+ 	<hr>
+ 	<span class="lab">On Line Classes</span>
+	<div *ngFor="let education of resumeService.resume.educations; let i = index">
+		<div *ngIf="education.mode">
+			<table>
+				<tr><td colspan="2" class="highlights indent">({{education.name}})</td>
+					<td class="highlights indent">{{education.school}} {{education.mode}} {{education.year}}</td></tr>
+				<tr><td class="leftLabel indent">Technologies:</td>
+				 <td colspan= "2" class="highlights indent">{{education.technologies}}</td></tr>
+				 <tr><td colspan="3">&nbsp;</td></tr>
+			</table>
+ 		</div>
+ 	</div>
+</div>
+ <hr>
+  Enter data in form and submit. Parsed results can be downloaded using the link provided.
+  <form #f="ngForm" novalidate>
+    <div class="form-group">
+      <label>Name</label>
+      <input type="textarea" class="form-control" name="name" [(ngModel)]="user.name">
+       <!--<textarea class="form-control" name="name" ref-textarea [(ngModel)]="user.name" rows="4"></textarea>-->
+
+    </div>
+		    <button type="submit" (click)="onClick(f.valid, f.value)" class="btn btn-default">Submit</button>
+  </form>
