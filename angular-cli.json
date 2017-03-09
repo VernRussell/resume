@@ -9,9 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico",
-        "app/JsonFiles/defaultPositions.json",
-        "app/JsonFiles/vernPositions.json"
+        "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
