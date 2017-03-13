@@ -12,18 +12,224 @@
 		"Finds the best solution, especially when the requirements are ambiguous."
 	],
 
+	"skill": [{
+		"name": "SQL Server",
+		"summary": "Designed and upgraded numerous databases adapting to fit the project, automation, web sites and custom solutions.  Performed SQL administration once fitting larger databases in very tight space. Perform tasks from switching partitions, writing extremely complex queries, challenging data fix scripts, stored procedures, SQL jobs, performance tuning.  Performed numerous data migration tasks both in and out of the database, including parsing SQL in XML format."
+	}, {
+		"name": "SQL",
+		"summary": ""
+	}, {
+		"name": "C#",
+		"summary": "Used C# to write and maintain custom tools, applications and web sites, creating from scratch, making bug fixes and updating features. Designed and wrote numerous tools, mostly in the area involving data extraction, conversion and reformatting interfacing with SQL, XML, Json, TFS, Excel and flat files. Used C# to generate and maintain test automation, designing and writing several test frameworks and harnesses. Maintained and enhanced ASP.Net web site and architected conversion from ASP to ASP.Net."
+	}, {
+		"name": ".Net",
+		"summary": "0 2345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 2345678 9 2345678 1 2345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 2345678 9 2345678 2 2345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 2345678 9 2345678 3"
+	}, {
+		"name": "XML",
+		"summary": ""
+	}, {
+		"name": "ADO",
+		"summary": ""
+	}, {
+		"name": "Test Automation",
+		"summary": ""
+	}, {
+		"name": "tools developer",
+		"summary": ""
+	}, {
+		"name": "ETL",
+		"summary": ""
+	}, {
+		"name": "HTML",
+		"summary": ""
+	}, {
+		"name": "JavaScript",
+		"summary": ""
+	}, {
+		"name": "ASP .Net",
+		"summary": ""
+	}, {
+		"name": "OOP",
+		"summary": ""
+	}, {
+		"name": "TFS",
+		"summary": ""
+	}, {
+		"name": "Agile",
+		"summary": ""
+	}, {
+		"name": "PowerShell",
+		"summary": ""
+	}, {
+		"name": "Source Depot",
+		"summary": ""
+	}, {
+		"name": "TFS",
+		"summary": ""
+	}, {
+		"name": "VSO",
+		"summary": ""
+	}, {
+		"name": "SQL Jobs",
+		"summary": ""
+	}, {
+		"name": "SSIS",
+		"summary": ""
+	}, {
+		"name": "Excel",
+		"summary": ""
+	}, {
+		"name": "IIS",
+		"summary": ""
+	}, {
+		"name": "Java",
+		"summary": ""
+	}, {
+		"name": "Performance Tuning",
+		"summary": ""
+	}, {
+		"name": "Entity Framework",
+		"summary": ""
+	}, {
+		"name": "Multi-Threading",
+		"summary": ""
+	}, {
+		"name": "CSS",
+		"summary": ""
+	}, {
+		"name": "Perl",
+		"summary": ""
+	}, {
+		"name": "Linux",
+		"summary": ""
+	}, {
+		"name": "C+",
+		"summary": ""
+	}, {
+		"name": "UNIX",
+		"summary": ""
+	}, {
+		"name": "VSTS",
+		"summary": ""
+	}, {
+		"name": "N-Unit",
+		"summary": ""
+	}, {
+		"name": "MVC",
+		"summary": ""
+	}, {
+		"name": "SSRS",
+		"summary": ""
+	}, {
+		"name": "Web Services",
+		"summary": ""
+	}, {
+		"name": "Design Patterns",
+		"summary": ""
+	}, {
+		"name": "Data Structures",
+		"summary": ""
+	}, {
+		"name": "ASP .Net MVC",
+		"summary": ""
+	}, {
+		"name": "API",
+		"summary": ""
+	}, {
+		"name": ".Net Nuke",
+		"summary": ""
+	}, {
+		"name": "Json",
+		"summary": ""
+	}, {
+		"name": "jQuery",
+		"summary": ""
+	}, {
+		"name": "AJAX",
+		"summary": ""
+	}, {
+		"name": "REST",
+		"summary": ""
+	}, {
+		"name": "'C'",
+		"summary ": ""
+	}, {
+		"name": "Git",
+		"summary": ""
+	}, {
+		"name": "Jira",
+		"summary": ""
+	}, {
+		"name": "Oracle",
+		"summary": ""
+	}, {
+		"name": "Knockout",
+		"summary": ""
+	}, {
+		"name": "Autopilot",
+		"summary": ""
+	}, {
+		"name": "VM",
+		"summary": ""
+	}, {
+		"name": "JDBC",
+		"summary": ""
+	}, {
+		"name": "Spring",
+		"summary": ""
+	}, {
+		"name": "Hibernate",
+		"summary": ""
+	}, {
+		"name": "Tomcat",
+		"summary": ""
+	}, {
+		"name": "Apache",
+		"summary": ""
+	}, {
+		"name": "JSP",
+		"summary": ""
+	}, {
+		"name": "XSLT",
+		"summary": ""
+	}, {
+		"name": "WTT",
+		"summary": ""
+	}, {
+		"name": "QTP",
+		"summary": ""
+	}, {
+		"name": "Coded UI",
+		"summary": ""
+	}, {
+		"name": "Clearcase",
+		"summary": ""
+	}, {
+		"name": "Perforce",
+		"summary": ""
+	}, {
+		"name": "Subversion",
+		"summary": ""
+	}, {
+		"name": "Maui",
+		"summary": ""
+	}, {
+		"name": "SAP",
+		"summary": ""
+	}],
+
 	"technologies": [{
 		"expert": ["SQL Server", "SQL", "C#", ".Net", "XML", "ADO"]
 	}, {
 		"experienced": ["Test Automation", "tools developer", "ETL", "HTML", "JavaScript", "ASP .Net", "OOP", "TFS",
-			"Agile", "PowerShell", "SD", "TFS", "VSO", "SQL Jobs", "SSIS", "Excel", "IIS"
+			"Agile", "PowerShell", "Source Depot", "TFS", "VSO", "SQL Jobs", "SSIS", "Excel", "IIS"
 		]
 	}, {
 		"intermediate": ["Java", "Performance Tuning", "Entity Framework", "Multi-Threading", "CSS", "Perl", "Linux", "C++",
 			"UNIX", "VSTS", "N-Unit", "MVC", "SSRS"
 		]
 	}, {
-		"light": ["Web Services", "Design Patterns", "Data Structures", "MVC", "ASP .Net MVC", "API", ".Net Nuke",
+		"light": ["Web Services", "Design Patterns", "Data Structures", "ASP .Net MVC", "API", ".Net Nuke",
 			"Json", "jQuery", "AJAX", "REST", "'C'", "Git", "Jira", "Oracle", "Knockout", "Autopilot", "VM"
 		]
 	}, {
@@ -37,7 +243,7 @@
 	}],
 
 	"categories": ["expert", "experienced", "intermediate", "light", "some", "oldexperienced", "oldlight", "trained"],
-	
+
 	"showCats": [true, true, true, false, false, false, false, false],
 
 	"positions": [{
@@ -75,12 +281,12 @@
 		"vendor": "Aditi",
 		"client": "Microsoft",
 		"group": "Xbox",
-		"technologies": ["SQL Server", "SQL", "C#", ".Net", "Excel", "TFS", "VSO", "Autopilot"],
+		"technologies": ["SQL Server", "SQL", "C#", ".Net", "Excel", "TFS", "VSO", "Source Depot", "Autopilot"],
 		"months": [-1, -1, 3, -1, 7, -1, 4, 4],
 		"tasks": [
 			"Reduced the time for Live Site Review team to spot issues by 30% by providing a periodic report in Excel using SQL Stored procedures and queries using CTE’s, Pivoting, and Aggregation and fact tables to support tabular reports and graphs in Excel.",
 			"Upgraded ingestions in C# to pull data from VSO and SQL into a database based off of TFS.",
-			"Used SD to interface with Autopilot."
+			"Used Source Depot to interface with Autopilot."
 		]
 	}, {
 		"id": "3",
@@ -112,7 +318,7 @@
 		"client": "Microsoft",
 		"group": "ETCO",
 		"technologies": ["SQL Server", "SQL", "C#", "ASP .Net MVC", "JavaScript", "jQuery", "Knockout"],
-		"months": [-1, -1, -1, -1, -1, -1],
+		"months": [-1, -1, -1, -1, -1, -1, -1],
 		"tasks": [
 			"Upgraded On-call area web application in ASP .Net MVC 4.0, SQL, C#, JavaScript, jQuery, Knockout"
 		]

@@ -16,6 +16,9 @@
     .highlights {
        background-color: #ccff99;
     }
+    .columnList {
+      column-count: 4;
+    }
     .tt {
       font-size: 10px;
     }

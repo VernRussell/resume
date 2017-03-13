@@ -1,5 +1,8 @@
 <div *ngIf="resumeService.resume">
-	<span class="lab">Resume for: {{resumeService.resume.name}}</span>
+	<span class="lab">Resume for: {{resumeService.resume.name}}
+	<div>You can view positions associated with the technologies shown.</div>
+	<div>Click on the button of the technology that you would like to view its associated positions.</div>
+	</span>
 	<hr>
 	<div class="row">
 		<div *ngFor="let jobTitle of resumeService.resume.jobTitles">
@@ -9,7 +12,10 @@
 		</div>
 	</div>
 	<hr>
-	<span class="lab">Details for the following position:</span>
+	<span class="lab">Details for the following {{choice}} position(s):
+	<div>Please <span *ngIf="choice === 'Recent'">hover over</span>
+				<span *unless="choice === 'Recent'">click on</span> the position you would like to view</div>
+	</span>
 	<div class="row">
 		<div *ngFor="let position of resumeService.resume.positions; let i = index">
 			<span class="clearfix col-xs-3" *ngIf="i < 4 && choice === 'Recent'"> 

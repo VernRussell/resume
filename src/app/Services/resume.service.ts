@@ -3,12 +3,14 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { Resume } from '../Resume/classes/resume';
 import { SearchService} from './search.service';
 import { Technology } from '../Resume/classes/technology';
+import { Skill } from '../Resume/classes/skill';
 
 @Injectable()
 export class ResumeService {
   
   public resume: Resume;
   public positionIndex: number;
+  private mySkill: Skill;
   
   constructor(private searchService:SearchService) {}
   
@@ -98,12 +100,20 @@ export class ResumeService {
         if (techs) {
           for (var id=0; id < techs.length; id++ ){
              var tech = techs[id];
+             for (var s in this.resume.skill){
+                 this.mySkill = this.resume.skill[s];
+                   if (this.mySkill && this.mySkill.name === tech  && this.mySkill.summary){
+                      break;
+                  }
+             }
+             
              var techMonths = this.resume.positions[pos].months[id];
              if (techMonths < 0) techMonths = months;
         
              if (this.resume.technologyList.indexOf(tech) < 0){
                 this.resume.technologyList.push(tech);
-                this.addTechnology(tech, techMonths);
+                console.log(tech, techMonths, this.mySkill);
+                this.addTechnology(tech, techMonths, this.mySkill);
               }
               else {
                 //   console.log(this.resume.tasksByTech[tech].months, tech, months);
@@ -176,7 +186,7 @@ export class ResumeService {
    
    // For each technology, go through All the tasks and include when the task involves the technology
    // Fill in the technology object, using the number of months for the first position that involves that technology
-   private addTechnology(tech: string, months: number){
+   private addTechnology(tech: string, months: number, skill: Skill){
     
     var taskList: string[] = [];
     
@@ -190,6 +200,8 @@ export class ResumeService {
     }   
     
     var technology = new Technology(months, taskList);
+    technology.skill = skill;
+    console.log(technology);
     this.resume.tasksByTech[tech] = technology;
     this.resume.techs++;
   }

@@ -2,6 +2,7 @@ import {Input, DoCheck} from '@angular/core';
 import { Position } from "./position";
 import { Technology } from "./technology";
 import { Education } from "./education";
+import { Skill } from "./skill";
 
 import 'rxjs/Rx';
 
@@ -10,6 +11,8 @@ export class Resume  {
     private myPosition: Position;
     // holds what tasks performed with the technology and shows number of months
     public tasksByTech: { [index: string]: Technology };
+    
+    public skillSummary: string;
     
     public technologies: { [category: string]: string[] };
     
@@ -31,6 +34,7 @@ export class Resume  {
     
     public techTasks: string[];
     public positionId: number;
+    public skill: Skill[];
     
        constructor (public id: number, public name: string, public positions: Position[], public educations: Education[]) {
    }

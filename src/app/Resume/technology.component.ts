@@ -55,14 +55,20 @@ export class TechnologyComponent implements OnInit, OnDestroy, DoCheck {
   onTech(event) {
     if (this.resumeService.resume) {
       this.techChosen = event.srcElement.innerText;
-      // console.log(this.techChosen);
+      console.log("Tech:", this.techChosen);
+      // I should be able to pull a summary off of an object in resume based on tech chosen
+      // resume.resume.tasksByTech[tech] should have a summary value
   
       if (this.techChosen === "None"){
         this.resumeService.resume.techTasks = [];
       }
       else {
          this.resumeService.resume.techTasks = this.resumeService.resume.tasksByTech[this.techChosen].tasks;
-        // console.log(this.resumeService.resume.techTasks);
+         console.log(this.techChosen, this.resumeService.resume.tasksByTech[this.techChosen].skill);
+         if (this.resumeService.resume.tasksByTech[this.techChosen].skill.summary) {
+           this.resumeService.resume.skillSummary = this.resumeService.resume.tasksByTech[this.techChosen].skill.summary;
+           console.log(this.resumeService.resume.tasksByTech[this.techChosen].skill.summary);
+         }
       }
     }
   }

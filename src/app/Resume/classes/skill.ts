@@ -1,6 +1,6 @@
 export class Skill {
   
-  constructor (public months: number, public tasks: string[] ) {
+  constructor (public name: string, public summary: string ) {
   }
 }
 
