@@ -1,9 +1,9 @@
 	<div *ngIf="resumeService.resume">		
 		<span class="lab">Skills of: {{resumeService.resume.name}}</span>
-		<div class="row columnList">
+		<div class="row columnList blb">
 			<div *ngFor="let category of resumeService.resume.categories; let i = index">
 				<div *ngFor="let tech of resumeService.resume.technologyList">
-					<div class = "tu" *ngIf="resumeService.resume.technologyByCategory[tech] === category">
+					<div class = "tu blg" *ngIf="resumeService.resume.technologyByCategory[tech] === category">
 							{{tech}} (
 							<span *ngIf="resumeService.resume.tasksByTech[tech].years === 0">{{resumeService.resume.tasksByTech[tech].months}} Months</span>
 							<span *ngIf="resumeService.resume.tasksByTech[tech].years !== 0">{{resumeService.resume.tasksByTech[tech].years}} Years </span>)
@@ -13,14 +13,14 @@
 		</div>
 		<hr>
 		<span class="lab">Choose Skill Level</span>
-		<div class="row">
+		<div class="row blb">
 			<div *ngFor="let category of resumeService.resume.categories">
 				<div class = "col-xs-2">
 					<div><a class="btn btn-block btn-success" (click)="setCategory($event)">{{category}}</a></div>
 				</div>
 			</div>
 		</div>
-		<div class="row" *ngIf="category">
+		<div class="row blb" *ngIf="category">
 			<hr>
 			<span class="lab">Choose Technology within the {{category}} skill level</span>
 			<div *ngFor="let tech of resumeService.resume.technologyList">
@@ -36,7 +36,7 @@
 			<span *ngIf="resumeService.resume.tasksByTech[techChosen].skill.summary">{{resumeService.resume.tasksByTech[techChosen].skill.summary}}</span>
 			<span *ngIf="resumeService.resume.tasksByTech[techChosen].years === 0"> {{resumeService.resume.tasksByTech[techChosen].months}} Months</span>
 			<span *ngIf="resumeService.resume.tasksByTech[techChosen].years !== 0"> {{resumeService.resume.tasksByTech[techChosen].years}} Years</span></span>
-				<ul class="details">
+				<ul class="details bly">
 					<li *ngFor="let task of resumeService.resume.techTasks">{{task}}</li>
 				</ul>
 		</div>

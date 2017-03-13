@@ -4,7 +4,7 @@
 	<div>Click on the button of the technology that you would like to view its associated positions.</div>
 	</span>
 	<hr>
-	<div class="row">
+	<div class="row blb">
 		<div *ngFor="let jobTitle of resumeService.resume.jobTitles">
 			<div class = "col-xs-2">
 				<div><a class="btn btn-block btn-success" (click)="onClick($event)">{{jobTitle}}</a></div>
@@ -16,7 +16,7 @@
 	<div>Please <span *ngIf="choice === 'Recent'">hover over</span>
 				<span *unless="choice === 'Recent'">click on</span> the position you would like to view</div>
 	</span>
-	<div class="row">
+	<div class="row blb">
 		<div *ngFor="let position of resumeService.resume.positions; let i = index">
 			<span class="clearfix col-xs-3" *ngIf="i < 4 && choice === 'Recent'"> 
 					<a class="btn btn-block btn-success tt" id="{{position.id}}" name="{{position.name}}_{{position.id}}" 
@@ -38,7 +38,7 @@
 			<tr><td class="leftLabel indent">Technologies:</td><td class="highlights indent">{{myPosition.technologies}}</td></tr>
 			<tr><td colspan="3" class="leftLabel indent">Tasks:</td></tr>
 		</table>
-		<ul class="details" *ngIf="myPosition.tasks">
+		<ul class="details bly" *ngIf="myPosition.tasks">
 			<li *ngFor="let task of myPosition.tasks">{{task}}</li>
 		</ul>
 	</div>

@@ -1,7 +1,7 @@
 <div *ngIf="resumeService.resume">
 	<div *ngIf="resumeService.resume.summary">
 		<span class="lab">{{resumeService.resume.name}} Summary</span>
-		<div class="row">
+		<div class="row blb">
 			  <ul>
 					<li *ngFor="let entry of resumeService.resume.summary">{{entry}}</li>
 			  </ul>
@@ -13,7 +13,7 @@
 	<div *ngIf="resumeService.resume.summary">
 	    <hr>
 	    <span class="lab">Summary of Expertise</span>
-		<div class="row">
+		<div class="row blb">
 		  <ul>
 		    <span *ngFor="let cat of resumeService.resume.technologies; let i = index">
 		    	<li *ngIf="resumeService.resume.showCats[i]">
@@ -33,14 +33,14 @@
 						<td colspan="2" class="highlights indent">{{position.technologies}}</td></tr>
 					<tr><td colspan="3" class="leftLabel indent">Tasks:</td></tr>
 				</table>
-				<ul class="details">
+				<ul class="details bly">
 				<li *ngFor="let task of position.tasks">{{task}}</li>
 				</ul>
 				<hr>
 			</div>
 		</div>
 	    <span class="lab">Summary of Education</span>
-		<div class="row">
+		<div class="row blb">
 		  <ul>
 		    <li *ngFor="let school of resumeService.resume.educationSummary">{{ school }}</li>
 		  </ul>
