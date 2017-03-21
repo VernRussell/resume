@@ -32,6 +32,9 @@ export class Resume  {
     
     public summary: string[];
     
+    public phone: string;
+    public email: string;
+    
     public techTasks: string[];
     public positionId: number;
     public skill: Skill[];

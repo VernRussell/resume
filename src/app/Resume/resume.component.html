@@ -1,6 +1,7 @@
 <div *ngIf="resumeService.resume">
 	<div *ngIf="resumeService.resume.summary">
-		<span class="lab">{{resumeService.resume.name}} Summary</span>
+		<h1 class="hc">{{resumeService.resume.name}} Summary</h1>
+		<h3 class="hc">Phone: {{resumeService.resume.phone}} -- Email: {{resumeService.resume.email}}</h3>
 		<div class="row blb">
 			  <ul>
 					<li *ngFor="let entry of resumeService.resume.summary">{{entry}}</li>

@@ -28,6 +28,9 @@
     .columnList {
       column-count: 6;
     }
+    .hc {
+      color: #a03579;
+    }
     .tt {
       font-size: 10px;
     }
