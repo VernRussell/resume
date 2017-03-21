@@ -1,6 +1,8 @@
 {
 	"id": "0",
 	"name": "Joe Blow",
+	"phone": "888-555-1212",
+	"email": "JoeBlow@email.com",
 
 	"summary": [
 		"X years of progressive experience in XYZ Field.",
